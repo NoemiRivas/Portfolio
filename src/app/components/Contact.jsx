@@ -16,8 +16,8 @@ function Contact() {
 
   return (
     <div className="py-12 ">
-      <div className="flex justify-between gap-4">
-        <div className="w-[30%]">
+      <div className="flex justify-between gap-4 md:flex flex-col items-center">
+        <div className="w-[50%] max-md:w-full">
           <h2 className="text-4xl font-bold text-center mb-12">Contacto 📧</h2>
           <p className="text-start text-stone-300 mb-12">
             Me puedes contactar a traves de mi correo electronico o a traves de
@@ -28,7 +28,7 @@ function Contact() {
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="w-[50%] flex flex-col gap-4 bg-stone-900 p-8 rounded-lg"
+          className="w-[50%] max-md:w-full flex flex-col gap-4 bg-stone-900 p-8 rounded-lg"
         >
           <div className="flex flex-col gap-2">
             <label htmlFor="name" className="font-semibold">

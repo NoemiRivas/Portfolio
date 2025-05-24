@@ -12,7 +12,7 @@ function Hero() {
           conocimientos solidos con el lenguaje de programación JavaScript.
         </p>
       </div>
-      <div className="flex justify-between cursor-pointer py-10">
+      <div className="flex justify-between cursor-pointer py-10 md:flex-row flex-col items-center gap-10">
         <IconsNetwork />
         <button className="bg-stone-700 text-white text-xl font-bold p-4 rounded-md hover:bg-stone-800 transition-colors duration-300">
           Descargar cv
