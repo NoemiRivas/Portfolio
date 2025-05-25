@@ -10,13 +10,11 @@ function Contact() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+
 
   return (
     <div className="py-12 " id='contacto'>
-      <div className="flex justify-between gap-4 md:flex flex-col items-center">
+      <div className="flex justify-between gap-4 max-md:flex max-md:flex-col max-md:items-start">
         <div className="w-[50%] max-md:w-full">
           <h2 className="text-4xl font-bold text-center mb-12">Contacto 📧</h2>
           <p className="text-start text-stone-300 mb-12">
@@ -27,8 +25,9 @@ function Contact() {
           </p>
         </div>
         <form
-          onSubmit={handleSubmit(onSubmit)}
+          
           className="w-[50%] max-md:w-full flex flex-col gap-4 bg-stone-900 p-8 rounded-lg"
+          action="https://getform.io/f/apjpjora" method="POST"
         >
           <div className="flex flex-col gap-2">
             <label htmlFor="name" className="font-semibold">

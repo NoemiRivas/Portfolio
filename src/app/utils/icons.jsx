@@ -74,8 +74,12 @@ const Icons = () => {
 const IconsNetwork = () => {
   return (
     <div className="flex gap-10  cursor-pointer">
+      <a href="https://www.linkedin.com/in/noembonilla" >
       <FaLinkedin size={60} className="hover:text-stone-500" />
+      </a>
+      <a href="https://github.com/NoemiRivas" >
       <FaGithub size={60} className="hover:text-stone-500" />
+      </a>
     </div>
   );
 };
