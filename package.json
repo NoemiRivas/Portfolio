@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "motion": "^12.12.2",
     "next": "15.1.8",
+    "next-intl": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hook-form": "^7.56.4",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/node": "22.15.21",
     "eslint": "^9",
     "eslint-config-next": "15.1.8",
     "postcss": "^8",

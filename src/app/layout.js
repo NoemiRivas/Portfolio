@@ -16,7 +16,7 @@ export const metadata = {
   description: "Mi porfolio ",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children }) {
   return (
     <html lang="es">
       <body

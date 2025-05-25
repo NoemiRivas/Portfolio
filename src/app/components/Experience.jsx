@@ -5,7 +5,7 @@ function Experience() {
     {
       id: 1,
       title: "Hackathon Midudev",
-      date: "2024",
+      date: "2025",
       type: "Hackathon",
       description: "Participación en la hackathon organizada por la comunidad de midudev, totalmente online. El desafío consistía en crear un proyecto desde cero o mejorar uno existente sin usuarios reales en un plazo de 2 semanas. Desarrollé MoneyUp, una aplicación web para el control de finanzas personales.",
       achievements: [
@@ -29,7 +29,7 @@ function Experience() {
   ];
 
   return (
-    <div className="py-12">
+    <div className="py-12" id='experiencia'>
       <h2 className="text-4xl font-bold text-center mb-12">Experiencia 💼</h2>
       <div className="space-y-8">
         {experiences.map((exp) => (

@@ -15,7 +15,7 @@ function Contact() {
   };
 
   return (
-    <div className="py-12 ">
+    <div className="py-12 " id='contacto'>
       <div className="flex justify-between gap-4 md:flex flex-col items-center">
         <div className="w-[50%] max-md:w-full">
           <h2 className="text-4xl font-bold text-center mb-12">Contacto 📧</h2>

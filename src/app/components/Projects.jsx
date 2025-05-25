@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
@@ -25,7 +26,7 @@ function Projects() {
     },
   ];
   return (
-    <div className="py-10">
+    <div className="py-10" id="proyectos">
       <h2 className="text-4xl font-bold text-center mb-10">Proyectos 💻​</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {projects.map((project) => (

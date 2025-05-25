@@ -59,8 +59,8 @@ const Icons = () => {
   return (
     <div className="cursor-pointer grid grid-cols-6 gap-2 max-md:grid-cols-3  ">
     {listIcons.map((icon) => (
-      <div key={icon.name} className=" p-4 bg-stone-700 rounded-md hover:bg-stone-800 transition-colors duration-300 ">
-        <span className="flex flex-col gap-2 items-center">
+      <div key={icon.name} className=" p-4 bg-stone-900 rounded-md hover:bg-stone-800 transition-colors duration-300 ">
+        <span className="flex flex-col gap-2 items-center text-stone-400">
         {icon.icon}
         <p className="text-sm text-center">{icon.name}</p>
         </span>
@@ -74,8 +74,8 @@ const Icons = () => {
 const IconsNetwork = () => {
   return (
     <div className="flex gap-10  cursor-pointer">
-      <FaLinkedin size={60} className="hover:text-blue-500" />
-      <FaGithub size={60} className="hover:text-black" />
+      <FaLinkedin size={60} className="hover:text-stone-500" />
+      <FaGithub size={60} className="hover:text-stone-500" />
     </div>
   );
 };
