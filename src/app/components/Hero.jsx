@@ -10,13 +10,13 @@ function Hero() {
     es: {
       label: "Español",
       formats: [
-        { name: "Diseño Clásico", url: "/cv/es-classic.pdf" },
+        { name: "Diseño Clásico", url: "./cv - espanol.pdf" },
       ],
     },
     it: {
       label: "Italiano",
       formats: [
-        { name: "en progreso...", url: "/#" },
+        { name: "en progreso...", url: "./cv - italiano.pdf" },
       ],
     },
   };
